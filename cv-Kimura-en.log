@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021) (preloaded format=uplatex 2021.10.4)  13 OCT 2021 12:12
+This is e-upTeX, Version 3.141592653-p3.9.0-u1.27-210218-2.6 (utf8.uptex) (TeX Live 2021) (preloaded format=uplatex 2021.10.4)  30 NOV 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -419,30 +419,32 @@ LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
 (Font)              No change on input line 144.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 148.
+(Font)              No change on input line 146.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 151.
+(Font)              No change on input line 150.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 155.
+(Font)              No change on input line 153.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 158.
+(Font)              No change on input line 157.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 161.
+(Font)              No change on input line 160.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 179.
+(Font)              No change on input line 163.
+LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
+(Font)              No change on input line 181.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/sl' undefined
-(Font)              No change on input line 184.
+(Font)              No change on input line 185.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 184.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 185.
  [2]
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 187.
+(Font)              No change on input line 189.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 220.
+(Font)              scaled to size 7.69775pt on input line 222.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 220.
+(Font)              scaled to size 7.69775pt on input line 222.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/sl' undefined
-(Font)              No change on input line 226.
+(Font)              No change on input line 228.
  [3]
 (./cv-Kimura-en.aux)
 Package rerunfilecheck Info: File `cv-Kimura-en.out' has not changed.
@@ -455,6 +457,6 @@ Here is how much of TeX's memory you used:
  25848 multiletter control sequences out of 15000+600000
  428103 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 76i,10n,80p,307b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 76i,10n,80p,328b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv-Kimura-en.dvi (3 pages, 15660 bytes).
+Output written on cv-Kimura-en.dvi (3 pages, 15980 bytes).
