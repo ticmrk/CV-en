@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.3.26)  29 MAR 2024 21:42
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.3.26)  20 DEC 2024 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -432,18 +432,18 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 182.
  [2]
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 192.
+(Font)              No change on input line 194.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/it' undefined
-(Font)              No change on input line 200.
+(Font)              No change on input line 202.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/sl' undefined
-(Font)              No change on input line 227.
+(Font)              No change on input line 221.
  [3]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 236.
+(Font)              scaled to size 7.69775pt on input line 238.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 236.
+(Font)              scaled to size 7.69775pt on input line 238.
 LaTeX Font Info:    Kanji font shape `JY2/mc/m/sl' undefined
-(Font)              No change on input line 242.
+(Font)              No change on input line 244.
 
 [4] (./cv-Kimura-en.aux)
  ***********
@@ -463,4 +463,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,10n,79p,353b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv-Kimura-en.dvi (4 pages, 18516 bytes).
+Output written on cv-Kimura-en.dvi (4 pages, 18944 bytes).
