@@ -1,11 +1,11 @@
 # Fdb version 4
-["dvipdf"] 1734670599.94082 "cv-Kimura-en.dvi" "cv-Kimura-en.pdf" "cv-Kimura-en" 1734670600.31146 0
-  "cv-Kimura-en.dvi" 1734670599.91469 18944 83829b39039042183932f7f4d66981ff "latex"
+["dvipdf"] 1742371793.0529 "cv-Kimura-en.dvi" "cv-Kimura-en.pdf" "cv-Kimura-en" 1742371793.32758 0
+  "cv-Kimura-en.dvi" 1742371793.02081 21316 81ddb8d305fe27b4a85740390cc935ec "latex"
   (generated)
   "cv-Kimura-en.pdf"
   (rewritten before read)
-["latex"] 1734670599.49314 "/Users/taichikimura/Documents/GitHub/CV-en/cv-Kimura-en.tex" "cv-Kimura-en.dvi" "cv-Kimura-en" 1734670600.31079 0
-  "/Users/taichikimura/Documents/GitHub/CV-en/cv-Kimura-en.tex" 1734670592.48626 10404 a21ac3237ca9efbd83f2ee6b1bff19b5 ""
+["latex"] 1742371792.66674 "/Users/ticmrk/Documents/GitHub/CV-en/cv-Kimura-en.tex" "cv-Kimura-en.dvi" "cv-Kimura-en" 1742371793.32688 0
+  "/Users/ticmrk/Documents/GitHub/CV-en/cv-Kimura-en.tex" 1742371781.29261 11330 1418cfb4f3fe9e3e27c273385c228009 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm" 1136768653 5972 3c3b0ad6e88dfd1de0d685b95994e6d4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1136768653 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -72,11 +72,11 @@
   "/usr/local/texlive/2024/texmf-dist/tex/latex/sectsty/sectsty.sty" 1137110779 22423 d476012cd03f82f9475ad54ba6cd3267 ""
   "/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
-  "/usr/local/texlive/2024/texmf-var/web2c/euptex/uplatex.fmt" 1711458974 8156894 8a3cd2b8fbb06900f94138d13fdda7da ""
+  "/usr/local/texlive/2024/texmf-var/web2c/euptex/uplatex.fmt" 1717473153 8156895 2ebee8bb2068396f8cd1fb340de96565 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "cv-Kimura-en.aux" 1734670599.91415 128 a80c91b91368713337c3f209e601fc36 "latex"
-  "cv-Kimura-en.out" 1734670599.88641 0 d41d8cd98f00b204e9800998ecf8427e "latex"
-  "cv-Kimura-en.tex" 1734670592.48626 10404 a21ac3237ca9efbd83f2ee6b1bff19b5 ""
+  "cv-Kimura-en.aux" 1742371793.02016 128 a80c91b91368713337c3f209e601fc36 "latex"
+  "cv-Kimura-en.out" 1742371792.99555 0 d41d8cd98f00b204e9800998ecf8427e "latex"
+  "cv-Kimura-en.tex" 1742371781.29261 11330 1418cfb4f3fe9e3e27c273385c228009 ""
   (generated)
   "cv-Kimura-en.aux"
   "cv-Kimura-en.dvi"
