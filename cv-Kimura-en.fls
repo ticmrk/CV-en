@@ -1,10 +1,10 @@
-PWD /Users/ticmrk/Documents/GitHub/research/CV/CV-en
+PWD /Users/taichikimura/Documents/GitHub/CV-en
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/euptex/uplatex.fmt
-INPUT /Users/ticmrk/Documents/GitHub/research/CV/CV-en/cv-Kimura-en.tex
+INPUT /Users/taichikimura/Documents/GitHub/CV-en/cv-Kimura-en.tex
 OUTPUT cv-Kimura-en.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
