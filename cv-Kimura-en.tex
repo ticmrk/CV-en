@@ -1,36 +1,45 @@
-% LaTeX Curriculum Vitae Template
+% LaTeX Curriculum Vitae
 %
-% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% Based on Jason Blevins' CV template (LuaLaTeX migration, lightly modernized)
 % http://jblevins.org/projects/cv-template/
 %
-% You may use use this document as a template to create your own CV
-% and you may redistribute the source code freely. No attribution is
-% required in any resulting documents. I do ask that you please leave
-% this notice and the above URL in the source code if you choose to
-% redistribute this file.
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% You may use this document as a template to create your own CV
+% and you may redistribute the source code freely.
 
-\documentclass[letterpaper,uplatex]{article}
+\documentclass[letterpaper,11pt]{article}
 
-\usepackage{hyperref}
+% --- Fonts ---
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}[
+  Numbers=OldStyle,
+  Ligatures=TeX
+]
+\newfontfamily\headingfont{TeX Gyre Heros}[Scale=0.95]
+
+% --- Colors ---
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{rulegray}{HTML}{B0B0B0}
+
+% --- Geometry ---
 \usepackage{geometry}
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
 
-% Comment the following lines to use the default Computer Modern font
-% instead of the Palatino font provided by the mathpazo package.
-% Remove the 'osf' bit if you don't like the old style figures.
-\usepackage[T1]{fontenc}
-\usepackage[sc,osf]{mathpazo}
+% --- Links ---
+\usepackage{hyperref}
+\usepackage{url}
 
-% Set your name here
-\def\name{Taichi KIMURA}
+\def\name{Taichi Kimura}
 
-% Replace this with a link to your CV if you like, or set it empty
-% (as in \def\footerlink{}) to remove the link in the footer:
-\def\footerlink{http://jblevins.org/projects/cv-template/}
-
-% The following metadata will show up in the PDF properties
 \hypersetup{
   colorlinks = true,
-  urlcolor = black,
+  urlcolor = accent,
+  linkcolor = accent,
   pdfauthor = {\name},
   pdfkeywords = {economics, statistics, mathematics},
   pdftitle = {\name: Curriculum Vitae},
@@ -38,72 +47,71 @@
   pdfpagemode = UseNone
 }
 
-\geometry{
-  body={6.5in, 8.5in},
-  left=1.0in,
-  top=1.25in
+% --- Section headings ---
+\usepackage{titlesec}
+\titleformat{\section}
+  {\headingfont\large\bfseries\color{accent}}
+  {}{0pt}{}
+  [\vspace{-4pt}{\color{rulegray}\rule{\linewidth}{0.4pt}}]
+\titleformat{\subsection}
+  {\headingfont\normalsize\itshape}
+  {}{0pt}{}
+\titlespacing*{\section}{0pt}{1.3em}{0.6em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+
+% --- Lists: no bullets, tighter spacing ---
+\usepackage{enumitem}
+\setlist[itemize,1]{
+  leftmargin=1.5em,
+  topsep=3pt,
+  itemsep=3pt,
+  parsep=0pt,
+  label={}
+}
+\setlist[itemize,2]{
+  leftmargin=1.5em,
+  topsep=2pt,
+  itemsep=1pt,
+  parsep=0pt,
+  label={}
 }
 
-% Customize page headers
+% --- Page header ---
 \pagestyle{myheadings}
 \markright{\name}
 \thispagestyle{empty}
 
-\usepackage{url}
-
-% Custom section fonts
-\usepackage{sectsty}
-\sectionfont{\rmfamily\mdseries\Large}
-\subsectionfont{\rmfamily\mdseries\itshape\large}
-
-% Other possible font commands include:
-% \ttfamily for teletype,
-% \sffamily for sans serif,
-% \bfseries for bold,
-% \scshape for small caps,
-% \normalsize, \large, \Large, \LARGE sizes.
-
-% Don't indent paragraphs.
 \setlength\parindent{0em}
-
-% Make lists without bullets
-\renewenvironment{itemize}{
-  \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
-  }
-}{
-  \end{list}
-}
 
 \begin{document}
 
-% Place name at left
-{\LARGE \name}
+% --- Name and contact block ---
+{\headingfont\Huge\bfseries \name}
 
-% Alternatively, print name centered and bold:
-%\centerline{\huge \bf \name}
+\vspace{0.4em}
+{\color{rulegray}\rule{\linewidth}{0.4pt}}
+\vspace{0.5em}
 
-\vspace{0.25in}
-
-\begin{minipage}{0.45\linewidth}
+\begin{minipage}[t]{0.55\linewidth}
   \#26 Kyousei--Kan \\
   4-1-1, Hiyoshi, Kohoku-Ku, Yokohama \\
   Kanagawa, 223-8526, JAPAN
-\end{minipage}
-\begin{minipage}{0.45\linewidth}
-  \begin{tabular}{ll}
-    TEL: & (+81)45-564-2478 \\
-    Email: & \href{mailto:tkimura@kbs.keio.ac.jp}{\tt tkimura@kbs.keio.ac.jp}\\
-    Web site: & \url{https://ticmrk.github.io/}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.40\linewidth}
+  \begin{tabular}{@{}ll@{}}
+    Tel: & +81-45-564-2478 \\
+    Email: & \href{mailto:tkimura@kbs.keio.ac.jp}{tkimura@kbs.keio.ac.jp}\\
+    Web: & \url{https://ticmrk.github.io/}
   \end{tabular}
 \end{minipage}
 
 \section*{Employment}
 
 \begin{itemize}
-    \item Assistant professor (Tenured), Graduate School of Business Administration, Keio University, October 2021 - present.
-     \item Assistant professor (Non-tenured), Graduate School of Business Administration, Keio University, April 2018 - September 2021.
-     \item Research Associate (Non-tenured), Graduate School of Business Administration, Keio University, April 2016 - March 2018.
+    \item Assistant Professor (Tenured), Graduate School of Business Administration, Keio University, October 2021 -- present.
+    \item Assistant Professor (Non-tenured), Graduate School of Business Administration, Keio University, April 2018 -- September 2021.
+    \item Research Associate (Non-tenured), Graduate School of Business Administration, Keio University, April 2016 -- March 2018.
 \end{itemize}
 
 \section*{Education}
@@ -114,7 +122,7 @@
   \item B. Commerce, Hitotsubashi University, March 2011.
 \end{itemize}
 
-\section*{Research interests}
+\section*{Research Interests}
 
 \begin{itemize}
   \item Management Accounting
@@ -122,15 +130,25 @@
   \item Performance Evaluation
 \end{itemize}
 
-\section*{Working papers}
+\section*{Working Papers}
 
 \begin{itemize}
+    \item Making Target Costs Work in Government Procurement (with Takahiro Morimitsu)
+        \begin{itemize}
+            \item Available at SSRN: \url{https://ssrn.com/abstract=6586379}
+        \end{itemize}
+
+    \item Incentive Design with Biased Reviewers and Compensation Committee (with Takahiro Morimitsu)
+        \begin{itemize}
+            \item Available at SSRN: \url{https://ssrn.com/abstract=6347639}
+        \end{itemize}
+
     \item Target Setting under Skeptical Scrutiny (with Hikaru Mitsuhashi)
         \begin{itemize}
             \item Available at SSRN: \url{https://ssrn.com/abstract=60646214}
         \end{itemize}
-        
-    \item Centralize or decentralize? Co-location with accounting precision and incentive power
+
+    \item Compensation Structure and the Governance of Measurement Authority
         \begin{itemize}
             \item Available at SSRN: \url{https://ssrn.com/abstract=5734862}
         \end{itemize}
@@ -140,17 +158,17 @@
             \item Available at SSRN: \url{https://ssrn.com/abstract=5443702}
         \end{itemize}
 
-    \item  The role of loss aversion in multi-rater subjective performance evaluations (with Takahiro Morimitsu).
+    \item The role of loss aversion in multi-rater subjective performance evaluations (with Takahiro Morimitsu).
         \begin{itemize}
             \item Available at SSRN: \url{https://ssrn.com/abstract=5083726}.
         \end{itemize}
-    
+
     \item On the use of calibration committees in subjective performance evaluation (with Takahiro Morimitsu).
         \begin{itemize}
             \item Available at SSRN: \url{https://ssrn.com/abstract=4290250}.
         \end{itemize}
-    
-    \item Conformity pressure and compensation contracts (with Yutaro Murakami). 
+
+    \item Conformity pressure and compensation contracts (with Yutaro Murakami).
         \begin{itemize}
             \item Available at SSRN: \url{https://ssrn.com/abstract=4113994}.
         \end{itemize}
@@ -162,10 +180,10 @@
 
 \begin{itemize}
     \item Cost--based pricing in government procurement with unobservable cost-reducing actions and productivity (with Takahiro Morimitsu), 2023, \textit{Asia--Pacific Journal of Accounting and Economics}, 30(2): 373-390.
-    
+
     \item The impact of the communication and the use of performance evaluation information on the organizational identification, 2019, \textit{Keio Business Forum} 36(1): 39--56. (in Japanese)
 
-	\item Application of a formative scale development guideline to management accounting researches (with Yoshitaka Shirinashihama, Liu Meiling, and Yuichi Ichihara), 2017, \textit{Hitotsubashi Review of Commerce and Management}12(2): 62--71. (in Japanese)
+	\item Application of a formative scale development guideline to management accounting researches (with Yoshitaka Shirinashihama, Liu Meiling, and Yuichi Ichihara), 2017, \textit{Hitotsubashi Review of Commerce and Management} 12(2): 62--71. (in Japanese)
 
 	\item Organizational culture concept in management accounting research: Past, present and future, 2014, \textit{The Journal of Cost Accounting Research} 30(2): 52-64. (in Japanese)
 \end{itemize}
@@ -176,7 +194,7 @@
     \item Impacts of peer pressure on incentive design: A review of analytical research (with Yutaro Murakami), 2022, \textit{Financial and Cost Accounting (Sangyo Keiri)} 82(2): 111--124. (in Japanese)
 
     \item Biases in subjective performance evaluation: A review of analytical research (with Takahiro Morimitsu), 2021, \textit{The Commercial Review of Seinan Gakuin University} 68(1-2): 65--88. (in Japanese)
-    
+
 	\item The use of formative indicators in management accounting research: A note on measurement model specification (with Liu Meilling, Yuichi Ichihara, and Yoshitaka Shirinashihama), 2015, \textit{Melco Journal of Management Accounting Research} 8(1): 77-87. (in Japanese)
 
 	\item A review of empirical management accounting research using the concept of organizational culture: Focusing on the view of organizational culture, 2015, \textit{Kigyo Kaikei} 67(8): 1179-1185. (in Japanese)
@@ -205,6 +223,8 @@
 \subsection*{Conference Presentations}
 
 \begin{itemize}
+    \item 48th  Annual Congress of European Accounting Association (Prague, Czech Republic), ``Performance targets as screening devices'' (with Hikaru Mitsuhashi).
+    \item 48th  Annual Congress of European Accounting Association (Prague, Czech Republic), ``Incentive design with biased reviewers and compensation committee'' (with Takahiro Morimitsu).
     \item 10th AEAJ Workshop (Fukui, Japan), February 2026, ``Centralize or decentralize? Co-location with accounting precision and incentive power.''
     \item 6th Autumn Meeting of the Accounting and Economic Association of Japan (Chuo University, Japan), December 2025, ``Designing calibration committees: Size, standards, and rater bias'' (with Takahiro Morimitsu).
     \item 47th Annual Congress of European Accounting Association (Rome, Italy), May 2025, ``The role of loss aversion in multi-rater subjective performance evaluations'' (with Takahiro Morimitsu).
@@ -241,7 +261,7 @@
 
 \section*{Teaching}
 
-\subsection*{Teaching experiences}
+\subsection*{Teaching Experiences}
 
 \begin{itemize}
 	\item Accounting and Control (MBA Core), Keio University, 2016--present.
@@ -249,7 +269,7 @@
 	\item Management Accounting (MBA Elective), Keio University, 2018--present.
 \end{itemize}
 
-\subsection*{Cases and teaching materials}
+\subsection*{Cases and Teaching Materials}
 
 \begin{itemize}
     \item Next Step Japan Inc., 2025, Keio Business School Case. (in Japanese)
@@ -291,8 +311,7 @@
 % Footer
 \begin{center}
   \begin{footnotesize}
-    Last updated: \today \\
-    %\href{\footerlink}{\texttt{\footerlink}}
+    \textcolor{rulegray}{Last updated: \today}
   \end{footnotesize}
 \end{center}
 
