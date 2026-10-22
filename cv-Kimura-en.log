@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.5.24)  22 OCT 2026 12:58
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.5.24)  22 OCT 2026 22:55
  restricted system commands enabled.
  file:line:error style messages enabled.
 **cv-Kimura-en.tex
@@ -566,7 +566,7 @@ GyrePagella(0)/m/n/10.95 󰄷󰄹(󰄲-󰄳): 󰄷󰄶--󰄹󰄹. (in Japanese)
 LaTeX Font Info:    Font shape `TU/TeXGyrePagella(0)/m/sl' in size <10.95> not 
 available
 (Font)              Font shape `TU/TeXGyrePagella(0)/m/it' tried instead on inp
-ut line 214.
+ut line 213.
 [2]
 Overfull \hbox (6.54445pt too wide) in paragraph at lines 233--234
 []\TU/TeXGyrePagella(0)/m/n/10.95 Gov-ern-ment pro-cure-ment con-tract de-sign 
@@ -584,13 +584,13 @@ Overfull \hbox (6.46413pt too wide) in paragraph at lines 246--247
 r-na-tional Ac-count-ing Is-sues (Van-cou-ver, Canada), Novem-
  []
 
-
+[3]
 Overfull \hbox (8.6578pt too wide) in paragraph at lines 249--250
 \TU/TeXGyrePagella(0)/m/n/10.95 󰄳󰄱󰄳󰄴, ``On the use of cal-i-bra-tion
  com-mit-tees in sub-jec-tive per-for-mance eval-u-a-tion'' (with Takahiro
  []
 
-[3]
+
 Overfull \hbox (2.01842pt too wide) in paragraph at lines 256--257
 []\TU/TeXGyrePagella(0)/m/n/10.95 󰄴󰄱th Asian--Pacific Con-fer-ence on In-t
 er-na-tional Ac-count-ing Is-sue (San Fran-cisco, USA), Novem-
@@ -611,7 +611,7 @@ Here is how much of LuaTeX's memory you used:
  431 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 53 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:577,3:355,4:189,5:687,6:92,7:7355,8:33,9:441,10:5,11:735
+   avail lists: 1:1,2:571,3:355,4:189,5:679,6:92,7:7299,8:33,9:441,10:5,11:725
  34516 multiletter control sequences out of 65536+600000
  58 fonts using 8126055 bytes
  73i,9n,93p,318b,579s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -621,7 +621,7 @@ xgyrepagella-italic.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/publi
 c/lm/lmmono10-regular.otf></usr/local/texlive/2026/texmf-dist/fonts/opentype/pub
 lic/tex-gyre/texgyrepagella-regular.otf></usr/local/texlive/2026/texmf-dist/font
 s/opentype/public/tex-gyre/texgyreheros-bold.otf>
-Output written on cv-Kimura-en.pdf (6 pages, 45320 bytes).
+Output written on cv-Kimura-en.pdf (6 pages, 45378 bytes).
 
 PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

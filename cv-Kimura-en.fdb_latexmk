@@ -1,5 +1,5 @@
 # Fdb version 4
-["lualatex"] 1792641530.78571 "cv-Kimura-en.tex" "cv-Kimura-en.pdf" "cv-Kimura-en" 1792641531.61764 0
+["lualatex"] 1792677356.86132 "cv-Kimura-en.tex" "cv-Kimura-en.pdf" "cv-Kimura-en" 1792677357.69724 0
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmmono10-regular.luc" 1775986277.64914 81837 ec2ed421f8e276f2142e5cde68880e00 ""
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-bold.luc" 1773213400.93913 128410 1ba271527a2b67439d43c045d339a34f ""
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular.luc" 1773213400.42295 127327 bb05cc850edf5447a76a9cb72263daaf ""
@@ -11,7 +11,7 @@
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-bolditalic.luc" 1778358690.98958 287795 63568037a7ffb72fb5766176223e8f0c ""
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-italic.luc" 1778358691.14489 311419 f3e9ac4e974188fa1180dbdf1a239484 ""
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/fonts/otl/texgyrepagella-regular.luc" 1778358690.90119 310182 3c680ffbedca6fe8593af2875e4fd9f4 ""
-  "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1792641531.45399 16604 ec2ff0503d98988063c77df8791a8f55 "lualatex"
+  "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc" 1792677357.60081 9271 ec62486bef7ae698298293a6118ac573 "lualatex"
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1779698488.33059 443274 16b28845e65756423cdb80a71480f4f4 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
   "/usr/local/texlive/2026/texmf-dist/fonts/opentype/public/tex-gyre/texgyreheros-bold.otf" 1257299502 135204 f5f20609880fff666e17267854df804d ""
@@ -130,9 +130,9 @@
   "/usr/local/texlive/2026/texmf-dist/tex/luatex/luaotfload/luaotfload.lua" 1740687098 13566 16df94dd2de231b2bca0aaa0190941fe ""
   "/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1779628907 5573038 b99aad5e4898a9034e953632f940512b ""
   "/usr/local/texlive/2026/texmf-var/web2c/luahbtex/lualatex.fmt" 1779628821 5655529 528377331850732d06cb3c34cd254793 ""
-  "cv-Kimura-en.aux" 1792641531.517 162 f042405b684a8c860cba07045d113040 "lualatex"
-  "cv-Kimura-en.out" 1792641531.38529 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
-  "cv-Kimura-en.tex" 1792641530.71097 17523 138a2836db8a1d09a6a401c8ab4e7d5d ""
+  "cv-Kimura-en.aux" 1792677357.60592 162 f042405b684a8c860cba07045d113040 "lualatex"
+  "cv-Kimura-en.out" 1792677357.46962 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "cv-Kimura-en.tex" 1792677356.75066 17546 b5354294be3d4cb26d9de366ca4cbfe7 ""
   (generated)
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.lua"
   "/Users/ticmrk/Library/texlive/2026/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc"
